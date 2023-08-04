@@ -1,0 +1,48 @@
+#obstacle {
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 2s;
+  left: 100%;
+}
+
+@keyframes run {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100px;
+  }
+}
+#board {
+  height: 30vw;
+}
+
+#char {
+  position: absolute;
+  left: 15vw;
+  width: 6vw;
+  height: 8vw;
+}
+
+#obstacle {
+  width: 12vw;
+  height: 8vw;
+}
+
+.jump {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 24vw;
+  }
+  100% {
+    bottom: 0;
+  }
+}
