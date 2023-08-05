@@ -1,8 +1,26 @@
 #obstacle {
+  left: 100%;
+  width: 12vw;
+  height: 12vw;
+
   animation: linear infinite;
   animation-name: run;
   animation-duration: 2s;
-  left: 100%;
+  animation-play-state: paused;
+}
+
+#char {
+  position: absolute;
+  left: 15vw;
+  width: 6vw;
+  height: 8vw;
+}
+#fall {
+  position: absolute;
+  left: 15vw;
+  width: 8w;
+  max-width: 8w!;
+  height: 8vw;
 }
 
 @keyframes run {
@@ -15,18 +33,6 @@
 }
 #board {
   height: 30vw;
-}
-
-#char {
-  position: absolute;
-  left: 15vw;
-  width: 6vw;
-  height: 8vw;
-}
-
-#obstacle {
-  width: 12vw;
-  height: 8vw;
 }
 
 .jump {
