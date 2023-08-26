@@ -120,13 +120,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center  pt-12 overflow-hidden bg-cyan-50 text-emerald-950">
       <section className="mb-12 relative">
         <div className="absolute right-2 animate-tilt">
-          <Image src={Pedro} alt="" style={{ width: "16vw", height: "auto" }} />
+          <Image src={Pedro} alt="" style={{ width: "auto", height: "auto" }} />
         </div>
         <div className="absolute bottom-0 left-6  animate-tilt">
           <Image
             src={PedroInvertido}
             alt=""
-            style={{ width: "16vw", height: "auto" }}
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
         <div className="pl-12 mb-12">
