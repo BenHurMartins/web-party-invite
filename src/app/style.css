@@ -33,12 +33,23 @@
 }
 #board {
   height: 30vw;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 
 .jump {
   animation-name: jump;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
+}
+
+#bottom {
+  background-color: #8c985a;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex: 1;
 }
 
 @keyframes jump {
