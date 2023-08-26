@@ -168,7 +168,10 @@ export default function Home() {
         <Dino />
       </section>
       <section id={"bottom"} className="pt-4 justify-center">
-        <div className="">
+        <div className="text-center">
+          <p className="font-semibold text-emerald-50 text-lg">
+            23 de setembro.
+          </p>
           <span className="font-semibold text-emerald-50 text-lg">
             Endereço: Casa da vovó e do vovô
           </span>
